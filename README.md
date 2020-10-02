@@ -69,7 +69,7 @@ The file `appsettings.Development.json` contains the settings of the website. By
 
 > If `FakeAuth` is **not set** the Website will use an [Azure Active Directory B2C](https://github.com/Microsoft/SmartHotel360-Website#enabling-azure-ad-b2c-optional) to enable the logins.
 
-If you want to run or deploy the Azure Function to enable the Pet Checker feature open the file `appsettings.Development.json` or `appsettings.Production.json` according to your Build configuration, `Production` if you are using a `Release` configuration or `Development` if you are using a `Debug` configuration. Then edit the `PetsConfig` section with the following entries:
+If you want to run or deploy the Azure Function to enable the Pet Checker feature open the file `appsettings.Development.json` or `appsettings.Production.json` according to your Build configuration, `Production` if you are using a `Release` configuration or `Development` if you are using a `Debug` configuration. Then edit the `PetsConfig` section with the following entries:-
 
 * `blobName`: Storage Account Name
 * `blobKey`: Storage Account Key
@@ -79,7 +79,7 @@ If you want to run or deploy the Azure Function to enable the Pet Checker featur
 
 ## Configuring the Azure Function
 
-Open the project `SmartHotel360.WebsiteFunction` and edit the `local.settings.json` file with following entries:
+Open the project `SmartHotel360.WebsiteFunction` and edit the `local.settings.json` file with following entries:-
 
 * `AzureWebJobsStorage`: Storage Account Connection String
 * `AzureWebJobsDashboard`: Storage Account Connection String
@@ -93,7 +93,7 @@ Open the project `SmartHotel360.WebsiteFunction` and edit the `local.settings.js
 
 ## Running the Website and Function locally
 
-In order to run the Website and the Function locally you will need to setup the `solution` with multiple startup projects:
+In order to run the Website and the Function locally you will need to setup the `solution` with multiple startup projects:-
 
 1. Right click on the solution and then click on properties.
 1. Select the option `Multiple startup projects`.
